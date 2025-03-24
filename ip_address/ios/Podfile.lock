@@ -1,0 +1,29 @@
+PODS:
+  - device_ip_plugin (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - device_ip_plugin (from `.symlinks/plugins/device_ip_plugin/ios`)
+  - Flutter (from `Flutter`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/ios`)
+
+EXTERNAL SOURCES:
+  device_ip_plugin:
+    :path: ".symlinks/plugins/device_ip_plugin/ios"
+  Flutter:
+    :path: Flutter
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/ios"
+
+SPEC CHECKSUMS:
+  device_ip_plugin: d711cdc102b84f08b0cbd2b9444915740f5fcbb4
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  shared_preferences_foundation: 5b919d13b803cadd15ed2dc053125c68730e5126
+
+PODFILE CHECKSUM: 7d714a5ac7fda1315bc261738086cf00fa98c7e3
+
+COCOAPODS: 1.16.2
